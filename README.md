@@ -1,9 +1,9 @@
 # text-case-converter
 
-[![CI](https://github.com/venkatajanapareddy/text-case-converter/actions/workflows/main.yml/badge.svg)](https://github.com/venkatajanapareddy/text-case-converter/actions/workflows/main.yml)
+[![CI](https://github.com/venkatajanapareddy/text-case-converter/actions/workflows/main.yml/badge.svg?label=CI)](https://github.com/venkatajanapareddy/text-case-converter/actions/workflows/main.yml)
 [![npm version](https://img.shields.io/npm/v/text-case-converter.svg)](https://www.npmjs.com/package/text-case-converter)
-[![MIT License](https://img.shields.io/npm/l/text-case-converter.svg)](LICENSE)
-[![Bundle Size](https://badgen.net/bundlephobia/minzip/text-case-converter)](https://bundlephobia.com/result?p=text-case-converter)
+[![MIT License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
+[![minzipped size](https://badgen.net/bundlephobia/minzip/text-case-converter)](https://bundlephobia.com/result?p=text-case-converter)
 
 A modern TypeScript library to convert strings between various case formats (`camelCase`, `PascalCase`, `snake_case`, `kebab-case`, `CONSTANT_CASE`).
 
