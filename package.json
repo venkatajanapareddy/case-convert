@@ -1,17 +1,17 @@
 {
-  "name": "case-transform",
+  "name": "text-case-converter",
   "version": "1.0.0",
   "description": "A modern TypeScript library to convert strings between various case formats (camelCase, PascalCase, snake_case, etc.).",
   "type": "module",
   "author": "Venkata Phanindra Kumar Janapareddy",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/venkatajanapareddy/case-convert.git"
+    "url": "git+https://github.com/venkatajanapareddy/text-case-converter.git"
   },
   "bugs": {
-    "url": "https://github.com/venkatajanapareddy/case-convert/issues"
+    "url": "https://github.com/venkatajanapareddy/text-case-converter/issues"
   },
-  "homepage": "https://github.com/venkatajanapareddy/case-convert#readme",
+  "homepage": "https://github.com/venkatajanapareddy/text-case-converter#readme",
   "main": "./dist/index.cjs",
   "module": "./dist/index.mjs",
   "types": "./dist/index.d.ts",
