@@ -1,0 +1,72 @@
+{
+  "name": "case-convert",
+  "version": "1.0.0",
+  "description": "A modern TypeScript library to convert strings between various case formats (camelCase, PascalCase, snake_case, etc.).",
+  "type": "module",
+  "author": "Venkata Phanindra Kumar Janapareddy",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/venkatajanapareddy/case-convert.git"
+  },
+  "bugs": {
+    "url": "https://github.com/venkatajanapareddy/case-convert/issues"
+  },
+  "homepage": "https://github.com/venkatajanapareddy/case-convert#readme",
+  "main": "./dist/index.cjs",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "require": "./dist/index.cjs",
+      "import": "./dist/index.mjs",
+      "types": "./dist/index.d.ts"
+    }
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "dev": "vitest",
+    "test": "vitest run",
+    "test:coverage": "vitest run --coverage",
+    "build": "tsup src/index.ts --format esm,cjs --dts --clean",
+    "lint": "eslint . --ext .ts,.tsx --fix",
+    "format": "prettier --write \"src/**/*.ts\" \"tests/**/*.ts\" \"*.json\" \"*.md\"",
+    "format:check": "prettier --check \"src/**/*.ts\" \"tests/**/*.ts\" \"*.json\" \"*.md\"",
+    "prepare": "husky",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "string",
+    "case",
+    "convert",
+    "camelCase",
+    "PascalCase",
+    "snake_case",
+    "kebab-case",
+    "CONSTANT_CASE",
+    "typescript",
+    "utility",
+    "format",
+    "change-case",
+    "case-convert"
+  ],
+  "lint-staged": {
+    "*.{js,ts,jsx,tsx}": "eslint --fix",
+    "*.{js,ts,jsx,tsx,json,md,yml}": "prettier --write"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "@typescript-eslint/eslint-plugin": "^7.0.0",
+    "@typescript-eslint/parser": "^7.0.0",
+    "@vitest/coverage-v8": "^1.6.1",
+    "eslint": "^8.0.0",
+    "eslint-config-prettier": "^9.0.0",
+    "husky": "^9.0.0",
+    "lint-staged": "^15.0.0",
+    "prettier": "^3.0.0",
+    "tsup": "^8.0.0",
+    "typescript": "^5.0.0",
+    "vitest": "^1.0.0"
+  }
+}
