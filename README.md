@@ -57,7 +57,13 @@ npm install case-transform
 ## 📚 Usage
 
 ```ts
-import { toCamelCase, toPascalCase, toSnakeCase, toKebabCase, toConstantCase } from 'case-transform';
+import {
+  toCamelCase,
+  toPascalCase,
+  toSnakeCase,
+  toKebabCase,
+  toConstantCase,
+} from 'case-transform';
 
 console.log(toCamelCase('hello world')); // "helloWorld"
 console.log(toPascalCase('hello world')); // "HelloWorld"
@@ -117,17 +123,17 @@ Converts an input string to CONSTANT_CASE (SCREAMING_SNAKE_CASE).
 ## 🆚 How is `case-transform` different?
 
 | Feature                 | `case-transform` | Other Libraries  |
-| ----------------------- | -------------- | ---------------- |
-| Handles acronyms        | ✅ Yes         | ❌ No            |
-| Handles numbers         | ✅ Yes         | ❌ No            |
-| Throws on invalid input | ✅ Yes         | ❌ No            |
-| Fully typed (TS-first)  | ✅ Yes         | ⚠️ Often weak    |
-| Tree-shakable           | ✅ Yes         | ⚠️ Sometimes     |
-| Zero dependencies       | ✅ Yes         | ❌ No            |
-| 100% test coverage      | ✅ Yes         | ❌ Rarely        |
-| Modern build tools      | ✅ Yes         | ⚠️ Inconsistent  |
-| Dual ESM + CJS output   | ✅ Yes         | ⚠️ Rarely        |
-| Clean, minimal API      | ✅ Yes         | ⚠️ Often bloated |
+| ----------------------- | ---------------- | ---------------- |
+| Handles acronyms        | ✅ Yes           | ❌ No            |
+| Handles numbers         | ✅ Yes           | ❌ No            |
+| Throws on invalid input | ✅ Yes           | ❌ No            |
+| Fully typed (TS-first)  | ✅ Yes           | ⚠️ Often weak    |
+| Tree-shakable           | ✅ Yes           | ⚠️ Sometimes     |
+| Zero dependencies       | ✅ Yes           | ❌ No            |
+| 100% test coverage      | ✅ Yes           | ❌ Rarely        |
+| Modern build tools      | ✅ Yes           | ⚠️ Inconsistent  |
+| Dual ESM + CJS output   | ✅ Yes           | ⚠️ Rarely        |
+| Clean, minimal API      | ✅ Yes           | ⚠️ Often bloated |
 
 ---
 
