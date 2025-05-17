@@ -1,9 +1,9 @@
-# case-convert
+# case-transform
 
-[![CI](https://github.com/venkatajanapareddy/case-convert/actions/workflows/main.yml/badge.svg)](https://github.com/venkatajanapareddy/case-convert/actions/workflows/main.yml)
-[![npm version](https://img.shields.io/npm/v/case-convert.svg)](https://www.npmjs.com/package/case-convert)
-[![MIT License](https://img.shields.io/npm/l/case-convert.svg)](LICENSE)
-[![Bundle Size](https://badgen.net/bundlephobia/minzip/case-convert)](https://bundlephobia.com/result?p=case-convert)
+[![CI](https://github.com/venkatajanapareddy/case-transform/actions/workflows/main.yml/badge.svg)](https://github.com/venkatajanapareddy/case-transform/actions/workflows/main.yml)
+[![npm version](https://img.shields.io/npm/v/case-transform.svg)](https://www.npmjs.com/package/case-transform)
+[![MIT License](https://img.shields.io/npm/l/case-transform.svg)](LICENSE)
+[![Bundle Size](https://badgen.net/bundlephobia/minzip/case-transform)](https://bundlephobia.com/result?p=case-transform)
 
 A modern TypeScript library to convert strings between various case formats (`camelCase`, `PascalCase`, `snake_case`, `kebab-case`, `CONSTANT_CASE`).
 
@@ -24,7 +24,7 @@ A modern TypeScript library to convert strings between various case formats (`ca
 
 ---
 
-## 🚀 Why use `case-convert`?
+## 🚀 Why use `case-transform`?
 
 Most string case conversion libraries fall short when it comes to:
 
@@ -34,7 +34,7 @@ Most string case conversion libraries fall short when it comes to:
 - ❌ Missing or inaccurate TypeScript types
 - ❌ Bloated dependencies or lack of tree-shaking support
 
-`case-convert` solves these problems:
+`case-transform` solves these problems:
 
 - ✅ Smart word segmentation and acronym awareness
 - ✅ Strict input handling (throws `TypeError`)
@@ -49,7 +49,7 @@ Most string case conversion libraries fall short when it comes to:
 ## 📦 Installation
 
 ```sh
-npm install case-convert
+npm install case-transform
 ```
 
 ---
@@ -57,7 +57,7 @@ npm install case-convert
 ## 📚 Usage
 
 ```ts
-import { toCamelCase, toPascalCase, toSnakeCase, toKebabCase, toConstantCase } from 'case-convert';
+import { toCamelCase, toPascalCase, toSnakeCase, toKebabCase, toConstantCase } from 'case-transform';
 
 console.log(toCamelCase('hello world')); // "helloWorld"
 console.log(toPascalCase('hello world')); // "HelloWorld"
@@ -114,9 +114,9 @@ Converts an input string to CONSTANT_CASE (SCREAMING_SNAKE_CASE).
 
 ---
 
-## 🆚 How is `case-convert` different?
+## 🆚 How is `case-transform` different?
 
-| Feature                 | `case-convert` | Other Libraries  |
+| Feature                 | `case-transform` | Other Libraries  |
 | ----------------------- | -------------- | ---------------- |
 | Handles acronyms        | ✅ Yes         | ❌ No            |
 | Handles numbers         | ✅ Yes         | ❌ No            |

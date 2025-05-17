@@ -1,5 +1,5 @@
 {
-  "name": "case-convert",
+  "name": "case-transform",
   "version": "1.0.0",
   "description": "A modern TypeScript library to convert strings between various case formats (camelCase, PascalCase, snake_case, etc.).",
   "type": "module",
